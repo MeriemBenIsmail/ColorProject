@@ -638,28 +638,32 @@ background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, F
 .website__rights {
   color:#ffff;
 }
-@media screen and (max-width:820px){
+@media screen and (max-width: 820px) {
   .footer__links {
-    padding-top:2rem;
+    padding-top: 2rem;
+  }
 
+  #footer__logo {
+    margin-bottom: 2rem;
   }
-  .footer__logo {
-    margin-bottom:2rem;
-  }
+
   .website__rights {
     margin-bottom: 2rem;
   }
+
   .footer__link--wrapper {
-    flex-direction:column ;
+    flex-direction: column;
   }
+
   .social__media--wrap {
     flex-direction: column;
   }
 }
-@media screen and (max-width:480px){
-  .footer__lin--items{
-    margin:0;
-    padding:10px;
-    width:100%;
+
+@media screen and (max-width: 500px) {
+  .footer__link--items {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
   }
 }
